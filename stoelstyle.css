@@ -6,16 +6,23 @@
 
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: rgb(202, 21, 226);
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 10px solid rgba(53, 63, 212, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: rgb(243, 194, 33);
+  padding: 10px;
+}
 
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+img {
+  border: 5px solid #ddd;
+  border-radius: 1px;
+  padding: 6px;
+  width: 100px;
+}
